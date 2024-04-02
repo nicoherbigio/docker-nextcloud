@@ -18,22 +18,22 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [28.0-nextcloud-bookworm, 28.0-nextcloud-database-bullseye]
+        version: [28.0-nextcloud-bookworm, 28.0-nextcloud-database-bookworm]
         include:
           - version: 28.0-nextcloud-bookworm
             docker-context: 28.0/debian/nextcloud/default
             docker-tags: |
               nicoherbigde/nextcloud:28.0
               nicoherbigde/nextcloud:28.0-bookworm
-              nicoherbigde/nextcloud:28.0.2
-              nicoherbigde/nextcloud:28.0.2-bookworm
-          - version: 28.0-nextcloud-database-bullseye
+              nicoherbigde/nextcloud:28.0.3
+              nicoherbigde/nextcloud:28.0.3-bookworm
+          - version: 28.0-nextcloud-database-bookworm
             docker-context: 28.0/debian/nextcloud-database/default
             docker-tags: |
               nicoherbigde/nextcloud-database:28.0
-              nicoherbigde/nextcloud-database:28.0-bullseye
-              nicoherbigde/nextcloud-database:28.0.2
-              nicoherbigde/nextcloud-database:28.0.2-bullseye
+              nicoherbigde/nextcloud-database:28.0-bookworm
+              nicoherbigde/nextcloud-database:28.0.3
+              nicoherbigde/nextcloud-database:28.0.3-bookworm
 
     steps:
       - name: Checkout Git Repository
