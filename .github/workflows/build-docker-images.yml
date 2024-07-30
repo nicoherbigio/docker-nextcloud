@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/**'
       - '28.0/**'
+      - '29.0/**'
   schedule:
     - cron: '0 1 * * *'
   workflow_dispatch:
@@ -18,7 +19,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [28.0-nextcloud-bookworm, 28.0-nextcloud-database-bookworm]
+        version: [28.0-nextcloud-bookworm, 28.0-nextcloud-database-bookworm, 29.0-nextcloud-bookworm, 29.0-nextcloud-database-bookworm]
         include:
           - version: 28.0-nextcloud-bookworm
             docker-context: 28.0/debian/nextcloud/default
@@ -34,6 +35,20 @@ jobs:
               nicoherbigde/nextcloud-database:28.0-bookworm
               nicoherbigde/nextcloud-database:28.0.8
               nicoherbigde/nextcloud-database:28.0.8-bookworm
+          - version: 29.0-nextcloud-bookworm
+            docker-context: 29.0/debian/nextcloud/default
+            docker-tags: |
+              nicoherbigde/nextcloud:29.0
+              nicoherbigde/nextcloud:29.0-bookworm
+              nicoherbigde/nextcloud:29.0.0
+              nicoherbigde/nextcloud:29.0.0-bookworm
+          - version: 29.0-nextcloud-database-bookworm
+            docker-context: 29.0/debian/nextcloud-database/default
+            docker-tags: |
+              nicoherbigde/nextcloud-database:29.0
+              nicoherbigde/nextcloud-database:29.0-bookworm
+              nicoherbigde/nextcloud-database:29.0.0
+              nicoherbigde/nextcloud-database:29.0.0-bookworm
 
     steps:
       - name: Checkout Git Repository
