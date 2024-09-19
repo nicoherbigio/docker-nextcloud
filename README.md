@@ -4,6 +4,8 @@
 
 ## Supported tags and respective `Dockerfile` links
 
+* Nextcloud [`30.0`, `30.0-bookworm`, `30.0.0`, `30.0.0-bookworm`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/30.0/debian/nextcloud/default/Dockerfile)
+* Nextcloud Database [`30.0`, `30.0-bookworm`, `30.0.0`, `30.0.0-bookworm`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/3ß.0/debian/nextcloud-database/default/Dockerfile)
 * Nextcloud [`29.0`, `29.0-bookworm`, `29.0.7`, `29.0.7-bookworm`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/29.0/debian/nextcloud/default/Dockerfile)
 * Nextcloud Database [`29.0`, `29.0-bookworm`, `29.0.7`, `29.0.7-bookworm`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/29.0/debian/nextcloud-database/default/Dockerfile)
 * Nextcloud [`28.0`, `28.0-bookworm`, `28.0.10`, `28.0.10-bookworm`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/28.0/debian/nextcloud/default/Dockerfile)
