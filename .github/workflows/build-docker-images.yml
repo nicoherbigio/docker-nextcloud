@@ -55,15 +55,15 @@ jobs:
             docker-tags: |
               nicoherbigde/nextcloud:30.0
               nicoherbigde/nextcloud:30.0-bookworm
-              nicoherbigde/nextcloud:30.0.0
-              nicoherbigde/nextcloud:30.0.0-bookworm
+              nicoherbigde/nextcloud:30.0.1
+              nicoherbigde/nextcloud:30.0.1-bookworm
           - version: 30.0-nextcloud-database-bookworm
             docker-context: 30.0/debian/nextcloud-database/default
             docker-tags: |
               nicoherbigde/nextcloud-database:30.0
               nicoherbigde/nextcloud-database:30.0-bookworm
-              nicoherbigde/nextcloud-database:30.0.0
-              nicoherbigde/nextcloud-database:30.0.0-bookworm
+              nicoherbigde/nextcloud-database:30.0.1
+              nicoherbigde/nextcloud-database:30.0.1-bookworm
 
     steps:
       - name: Checkout Git Repository
