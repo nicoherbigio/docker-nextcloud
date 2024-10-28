@@ -10,7 +10,7 @@ on:
       - '29.0/**'
       - '30.0/**'
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 1 * * 6'
   workflow_dispatch:
 
 jobs:
