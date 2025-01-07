@@ -8,6 +8,9 @@ LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 ENV TZ=Europe/Berlin
 
 RUN set -ex \
+    && apt-get update \
+    && apt-get install -y --no-install-recommends tzdata \
+    && rm -rf /var/lib/apt/lists/* \
     && ln -fns /usr/share/zoneinfo/${TZ} /etc/localtime \
     && echo ${TZ} > /etc/timezone
 
