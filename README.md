@@ -6,8 +6,8 @@
 
 * Nextcloud [`30.0`, `30.0-bookworm`, `30.0.5`, `30.0.5-bookworm`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/30.0/debian/nextcloud/default/Dockerfile)
 * Nextcloud Database [`30.0`, `30.0-bookworm`, `30.0.5`, `30.0.5-bookworm`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/3ß.0/debian/nextcloud-database/default/Dockerfile)
-* Nextcloud [`29.0`, `29.0-bookworm`, `29.0.11`, `29.0.11-bookworm`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/29.0/debian/nextcloud/default/Dockerfile)
-* Nextcloud Database [`29.0`, `29.0-bookworm`, `29.0.11`, `29.0.11-bookworm`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/29.0/debian/nextcloud-database/default/Dockerfile)
+* Nextcloud [`29.0`, `29.0-bookworm`, `29.0.12`, `29.0.12-bookworm`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/29.0/debian/nextcloud/default/Dockerfile)
+* Nextcloud Database [`29.0`, `29.0-bookworm`, `29.0.12`, `29.0.12-bookworm`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/29.0/debian/nextcloud-database/default/Dockerfile)
 
 ## How to get this image
 
