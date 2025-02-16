@@ -26,15 +26,15 @@ jobs:
             docker-tags: |
               nicoherbigde/nextcloud:29.0
               nicoherbigde/nextcloud:29.0-bookworm
-              nicoherbigde/nextcloud:29.0.10
-              nicoherbigde/nextcloud:29.0.10-bookworm
+              nicoherbigde/nextcloud:29.0.11
+              nicoherbigde/nextcloud:29.0.11-bookworm
           - version: 29.0-nextcloud-database-bookworm
             docker-context: 29.0/debian/nextcloud-database/default
             docker-tags: |
               nicoherbigde/nextcloud-database:29.0
               nicoherbigde/nextcloud-database:29.0-bookworm
-              nicoherbigde/nextcloud-database:29.0.10
-              nicoherbigde/nextcloud-database:29.0.10-bookworm
+              nicoherbigde/nextcloud-database:29.0.11
+              nicoherbigde/nextcloud-database:29.0.11-bookworm
           - version: 30.0-nextcloud-bookworm
             docker-context: 30.0/debian/nextcloud/default
             docker-tags: |
