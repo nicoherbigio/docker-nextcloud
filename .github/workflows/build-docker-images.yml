@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - '.github/**'
-      - '28.0/**'
       - '29.0/**'
       - '30.0/**'
   schedule:
@@ -20,22 +19,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [28.0-nextcloud-bookworm, 28.0-nextcloud-database-bookworm, 29.0-nextcloud-bookworm, 29.0-nextcloud-database-bookworm, 30.0-nextcloud-bookworm, 30.0-nextcloud-database-bookworm]
+        version: [29.0-nextcloud-bookworm, 29.0-nextcloud-database-bookworm, 30.0-nextcloud-bookworm, 30.0-nextcloud-database-bookworm]
         include:
-          - version: 28.0-nextcloud-bookworm
-            docker-context: 28.0/debian/nextcloud/default
-            docker-tags: |
-              nicoherbigde/nextcloud:28.0
-              nicoherbigde/nextcloud:28.0-bookworm
-              nicoherbigde/nextcloud:28.0.14
-              nicoherbigde/nextcloud:28.0.14-bookworm
-          - version: 28.0-nextcloud-database-bookworm
-            docker-context: 28.0/debian/nextcloud-database/default
-            docker-tags: |
-              nicoherbigde/nextcloud-database:28.0
-              nicoherbigde/nextcloud-database:28.0-bookworm
-              nicoherbigde/nextcloud-database:28.0.14
-              nicoherbigde/nextcloud-database:28.0.14-bookworm
           - version: 29.0-nextcloud-bookworm
             docker-context: 29.0/debian/nextcloud/default
             docker-tags: |
