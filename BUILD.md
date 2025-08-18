@@ -18,7 +18,7 @@ The following command is required to build the current version.
 
 ```
 # Build the Docker image
-docker build --no-cache --pull --tag nicoherbigde/nextcloud:31.0-bookworm 31.0/debian/nextcloud/default/
+docker build --no-cache --pull --tag nicoherbigde/nextcloud:31.0-trixie 31.0/debian/nextcloud/default/
 docker build --no-cache --pull --tag nicoherbigde/nextcloud-database:31.0-bookworm 31.0/debian/nextcloud-database/default
 ```
 
@@ -30,7 +30,7 @@ The following command is required to upload the current version.
 
 ```
 # Upload the Docker image to Docker Hub
-docker push nicoherbigde/nicoherbigde/nextcloud:31.0-bookworm
+docker push nicoherbigde/nicoherbigde/nextcloud:31.0-trixie
 docker push nicoherbigde/nicoherbigde/nextcloud-database:31.0-bookworm
 ```
 
