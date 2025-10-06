@@ -26,15 +26,15 @@ jobs:
             docker-tags: |
               nicoherbigde/nextcloud:30.0
               nicoherbigde/nextcloud:30.0-trixie
-              nicoherbigde/nextcloud:30.0.15
-              nicoherbigde/nextcloud:30.0.15-trixie
+              nicoherbigde/nextcloud:30.0.16
+              nicoherbigde/nextcloud:30.0.16-trixie
           - version: 30.0-nextcloud-database-bookworm
             docker-context: 30.0/debian/nextcloud-database/default
             docker-tags: |
               nicoherbigde/nextcloud-database:30.0
               nicoherbigde/nextcloud-database:30.0-bookworm
-              nicoherbigde/nextcloud-database:30.0.15
-              nicoherbigde/nextcloud-database:30.0.15-bookworm
+              nicoherbigde/nextcloud-database:30.0.16
+              nicoherbigde/nextcloud-database:30.0.16-bookworm
           - version: 31.0-nextcloud-trixie
             docker-context: 31.0/debian/nextcloud/default
             docker-tags: |
