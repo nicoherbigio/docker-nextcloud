@@ -4,8 +4,8 @@
 
 ## Supported tags and respective `Dockerfile` links
 
-* Nextcloud [`31.0`, `31.0-trixie`, `31.0.11`, `31.0.11-trixie`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/31.0/debian/nextcloud/default/Dockerfile)
-* Nextcloud Database [`31.0`, `31.0-bookworm`, `31.0.11`, `31.0.11-bookworm`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/31.0/debian/nextcloud-database/default/Dockerfile)
+* Nextcloud [`31.0`, `31.0-trixie`, `31.0.12`, `31.0.12-trixie`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/31.0/debian/nextcloud/default/Dockerfile)
+* Nextcloud Database [`31.0`, `31.0-bookworm`, `31.0.12`, `31.0.12-bookworm`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/31.0/debian/nextcloud-database/default/Dockerfile)
 
 ## How to get this image
 
