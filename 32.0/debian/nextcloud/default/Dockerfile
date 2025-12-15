@@ -1,4 +1,4 @@
-FROM mysql:8.0.44-bookworm
+FROM nextcloud:32.0.0-apache
 
 LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
@@ -34,6 +34,9 @@ RUN set -ex \
 ENV LANG=en_US.UTF-8 LANGUAGE=en_US:en
 
 
-# Configure MySQL for Nextcloud.
+# Install additional required software packages for Nextcloud.
 
-COPY assets/config/nextcloud.cnf /etc/mysql/conf.d/z99-nextcloud.cnf
+RUN set -ex \
+    && apt-get update \
+    && apt-get install -y --no-install-recommends smbclient \
+    && rm -rf /var/lib/apt/lists/*
