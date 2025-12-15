@@ -25,3 +25,19 @@ updates:
     ignore:
       - dependency-name: "mysql"
         update-types: [ "version-update:semver-major", "version-update:semver-minor" ]
+
+  - package-ecosystem: "docker"
+    directory: "/32.0/debian/nextcloud/default"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "nextcloud"
+        update-types: [ "version-update:semver-major", "version-update:semver-minor" ]
+
+  - package-ecosystem: "docker"
+    directory: "/32.0/debian/nextcloud-database/default"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "mysql"
+        update-types: [ "version-update:semver-major", "version-update:semver-minor" ]
