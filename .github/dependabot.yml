@@ -11,22 +11,6 @@ updates:
 
   # Maintain dependencies for Docker
   - package-ecosystem: "docker"
-    directory: "/30.0/debian/nextcloud/default"
-    schedule:
-      interval: "daily"
-    ignore:
-      - dependency-name: "nextcloud"
-        update-types: [ "version-update:semver-major", "version-update:semver-minor" ]
-
-  - package-ecosystem: "docker"
-    directory: "/30.0/debian/nextcloud-database/default"
-    schedule:
-      interval: "daily"
-    ignore:
-      - dependency-name: "mysql"
-        update-types: [ "version-update:semver-major", "version-update:semver-minor" ]
-
-  - package-ecosystem: "docker"
     directory: "/31.0/debian/nextcloud/default"
     schedule:
       interval: "daily"
