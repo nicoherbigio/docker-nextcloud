@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - '.github/**'
+      - '.github/workflows/**'
       - '31.0/**'
       - '32.0/**'
   schedule:
