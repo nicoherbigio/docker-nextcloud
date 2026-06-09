@@ -4,14 +4,14 @@
 
 ## Supported tags and respective `Dockerfile` links
 
-* Nextcloud [`33.0`, `33.0-trixie`, `33.0.4`, `33.0.4-trixie`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/33.0/debian/nextcloud/default/Dockerfile)
-* Nextcloud Database [`33.0`, `33.0-noble`, `33.0.4`, `33.0.4-noble`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/33.0/ubuntu/nextcloud-database/default/Dockerfile)
+* Nextcloud [`33.0`, `33.0-trixie`, `33.0.5`, `33.0.5-trixie`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/33.0/debian/nextcloud/default/Dockerfile)
+* Nextcloud Database [`33.0`, `33.0-noble`, `33.0.5`, `33.0.5-noble`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/33.0/ubuntu/nextcloud-database/default/Dockerfile)
 * Nextcloud [`32.0`, `32.0-trixie`, `32.0.11`, `32.0.11-trixie`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/32.0/debian/nextcloud/default/Dockerfile)
 * Nextcloud Database [`32.0`, `32.0-bookworm`, `32.0.11`, `32.0.11-bookworm`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/32.0/debian/nextcloud-database/default/Dockerfile)
 
 ## How to get this image
 
-The recommended way to get the NGINX Docker image is to pull the prebuilt image from Docker Hub by specifying the tagged version.
+The recommended way to get the Nextcloud Docker image is to pull the prebuilt image from Docker Hub by specifying the tagged version.
 
 ```console
 $ docker pull nicoherbigde/nextcloud:[TAG]
