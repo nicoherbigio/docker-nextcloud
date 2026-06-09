@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/**'
       - '32.0/**'
+      - '33.0/**'
   schedule:
     - cron: '0 1 * * 6'
   workflow_dispatch:
@@ -18,7 +19,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [32.0-nextcloud-trixie, 32.0-nextcloud-database-bookworm]
+        version: [32.0-nextcloud-trixie, 32.0-nextcloud-database-bookworm, 33.0-nextcloud-trixie, 33.0-nextcloud-database-noble]
         include:
           - version: 32.0-nextcloud-trixie
             docker-context: 32.0/debian/nextcloud/default
@@ -34,6 +35,20 @@ jobs:
               nicoherbigde/nextcloud-database:32.0-bookworm
               nicoherbigde/nextcloud-database:32.0.11
               nicoherbigde/nextcloud-database:32.0.11-bookworm
+          - version: 33.0-nextcloud-trixie
+            docker-context: 33.0/debian/nextcloud/default
+            docker-tags: |
+              nicoherbigde/nextcloud:33.0
+              nicoherbigde/nextcloud:33.0-trixie
+              nicoherbigde/nextcloud:33.0.0
+              nicoherbigde/nextcloud:33.0.0-trixie
+          - version: 33.0-nextcloud-database-noble
+            docker-context: 33.0/ubuntu/nextcloud-database/default
+            docker-tags: |
+              nicoherbigde/nextcloud-database:33.0
+              nicoherbigde/nextcloud-database:33.0-noble
+              nicoherbigde/nextcloud-database:33.0.0
+              nicoherbigde/nextcloud-database:33.0.0-noble
 
     steps:
       - name: Checkout Git Repository
