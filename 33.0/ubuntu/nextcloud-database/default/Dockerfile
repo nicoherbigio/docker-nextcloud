@@ -34,6 +34,6 @@ RUN set -ex \
 ENV LANG=en_US.UTF-8 LANGUAGE=en_US:en
 
 
-# Configure MySQL for Nextcloud.
+# Configure MariaDB for Nextcloud.
 
 COPY assets/config/nextcloud.cnf /etc/mysql/conf.d/z99-nextcloud.cnf
