@@ -55,15 +55,15 @@ jobs:
             docker-tags: |
               nicoherbigde/nextcloud:34.0
               nicoherbigde/nextcloud:34.0-trixie
-              nicoherbigde/nextcloud:34.0.0
-              nicoherbigde/nextcloud:34.0.0-trixie
+              nicoherbigde/nextcloud:34.0.1
+              nicoherbigde/nextcloud:34.0.1-trixie
           - version: 34.0-nextcloud-database-noble
             docker-context: 34.0/ubuntu/nextcloud-database/default
             docker-tags: |
               nicoherbigde/nextcloud-database:34.0
               nicoherbigde/nextcloud-database:34.0-noble
-              nicoherbigde/nextcloud-database:34.0.0
-              nicoherbigde/nextcloud-database:34.0.0-noble
+              nicoherbigde/nextcloud-database:34.0.1
+              nicoherbigde/nextcloud-database:34.0.1-noble
 
     steps:
       - name: Checkout Git Repository
