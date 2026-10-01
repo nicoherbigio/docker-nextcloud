@@ -1,4 +1,4 @@
-FROM nextcloud:32.0.14-apache
+FROM nextcloud:32.0.15-apache
 
 LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
