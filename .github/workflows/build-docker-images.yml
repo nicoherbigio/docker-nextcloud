@@ -26,15 +26,15 @@ jobs:
             docker-tags: |
               nicoherbigde/nextcloud:33.0
               nicoherbigde/nextcloud:33.0-trixie
-              nicoherbigde/nextcloud:33.0.9
-              nicoherbigde/nextcloud:33.0.9-trixie
+              nicoherbigde/nextcloud:33.0.10
+              nicoherbigde/nextcloud:33.0.10-trixie
           - version: 33.0-nextcloud-database-noble
             docker-context: 33.0/ubuntu/nextcloud-database/default
             docker-tags: |
               nicoherbigde/nextcloud-database:33.0
               nicoherbigde/nextcloud-database:33.0-noble
-              nicoherbigde/nextcloud-database:33.0.9
-              nicoherbigde/nextcloud-database:33.0.9-noble
+              nicoherbigde/nextcloud-database:33.0.10
+              nicoherbigde/nextcloud-database:33.0.10-noble
           - version: 34.0-nextcloud-trixie
             docker-context: 34.0/debian/nextcloud/default
             docker-tags: |
