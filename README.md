@@ -4,8 +4,8 @@
 
 ## Supported tags and respective `Dockerfile` links
 
-* Nextcloud [`34.0`, `34.0-trixie`, `34.0.4`, `34.0.4-trixie`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/34.0/debian/nextcloud/default/Dockerfile)
-* Nextcloud Database [`34.0`, `34.0-noble`, `34.0.4`, `34.0.4-noble`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/34.0/ubuntu/nextcloud-database/default/Dockerfile)
+* Nextcloud [`34.0`, `34.0-trixie`, `34.0.5`, `34.0.5-trixie`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/34.0/debian/nextcloud/default/Dockerfile)
+* Nextcloud Database [`34.0`, `34.0-noble`, `34.0.5`, `34.0.5-noble`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/34.0/ubuntu/nextcloud-database/default/Dockerfile)
 * Nextcloud [`33.0`, `33.0-trixie`, `33.0.10`, `33.0.10-trixie`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/33.0/debian/nextcloud/default/Dockerfile)
 * Nextcloud Database [`33.0`, `33.0-noble`, `33.0.10`, `33.0.10-noble`](https://github.com/nicoherbigio/docker-nextcloud/blob/main/33.0/ubuntu/nextcloud-database/default/Dockerfile)
 
